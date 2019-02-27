@@ -13,7 +13,7 @@
 
 
 # Instruções
-Me preocupando em facilitar o funcionamento da aplicação irei dar uma breve descrição de como ela funciona.
+Me preocupando em facilitar o funcionamento da aplicação a seguir instruções:
 
     Utilizar "colecao" como nome do banco de dados.
     
