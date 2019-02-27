@@ -12,7 +12,7 @@
   - Controlar Itens colecionaveis
 
 
-# Intruções
+# Instruções
 Me preocupando em facilitar o funcionamento da aplicação irei dar uma breve descrição de como ela funciona.
 
     Utilizar "colecao" como nome do banco de dados.
