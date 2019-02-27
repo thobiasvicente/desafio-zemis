@@ -39,8 +39,7 @@ class ProfileController extends Controller
         
     }
 
-    public function destroy($id)
-{
+    public function destroy($id){
         $image_path = "/public/profile-pictures";  // Value is not URL but directory file path
         if(File::exists($image_path)) {
         File::delete($image_path);

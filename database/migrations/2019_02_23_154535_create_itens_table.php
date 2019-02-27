@@ -15,7 +15,6 @@ class CreateItensTable extends Migration
     {
         Schema::create('itens', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('user_id');
             $table->timestamps();
             $table->string('name',30);
             $table->text('description')->nullable();

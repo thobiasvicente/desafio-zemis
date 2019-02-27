@@ -23,7 +23,8 @@
                     <img id="output" width="200" height="200" class="rounded-circle shadow" src="{{asset('css/profile-image.jpg')}}">
                     @endif
 
-                    <a href="/delete-avatar" onclick="return confirm('tem certeza que deseja deletar sua imagem de perfil?')" class="btn btn-link float-right"><i class="material-icons md-light">delete</i></a>
+                    <a href="/delete-avatar" onclick="return confirm('tem certeza que deseja deletar sua imagem de perfil?')" class="btn btn-link float-right">
+                    <i class="material-icons md-light">delete</i></a>
                     <input style="display:none" onchange="loadFile(event)" id="imagem" type="file" name="profile_picture">
                     
                     <input onchange="loadFile(event)" id="imagem" type="file" class="form-control-file d-none" name="imagem">
