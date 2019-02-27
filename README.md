@@ -16,7 +16,7 @@
 Me preocupando em facilitar o funcionamento da aplicação a seguir instruções:
 
     Utilizar o comando " php artisan storage:link ", pois a pasta de imagens está usando um link simbólico.
-    Utilizar o comando " composer update --no-scripts ".
+    Utilizar o comando " composer install  ".
     
 # Informações adicionais
 
