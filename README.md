@@ -18,7 +18,7 @@ Me preocupando em facilitar o funcionamento da aplicação a seguir instruções
     Utilizar o comando " php artisan storage:link ", pois a pasta de imagens está usando um link simbólico.
     Utilizar o comando " composer update --no-scripts ".
     
-# Iformações adicionais
+# Informações adicionais
 
 Cada usuário tem sua própria foto de perfil e também própria coleção de itens.
 
