@@ -15,7 +15,6 @@
 # Instruções
 Me preocupando em facilitar o funcionamento da aplicação a seguir instruções:
 
-    Utilizar "colecao" como nome do banco de dados.
     Utilizar o comando " php artisan storage:link ", pois a pasta de imagens está usando um link simbólico.
     Utilizar o comando " composer update --no-scripts ".
     
