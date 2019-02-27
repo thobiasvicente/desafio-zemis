@@ -28,8 +28,8 @@ class ProfileController extends Controller
         if($request->has('password')){
             $user->password = bcrypt(request('password'));
         }
-        if($request->has('imagem')){
-        $path = $request-> file('imagem')-> store('public/profile-pictures');
+        if($request->has('profile_picture')){
+        $path = $request-> file('profile_picture')-> store('public/profile-pictures');
         $user->profile_picture = str_replace('public', 'storage', $path);
         
         }
